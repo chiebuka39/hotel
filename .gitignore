@@ -12,3 +12,8 @@ web-report/
 
 # macOS
 .DS_Store
+node_modules
+ios/pods
+ios/build
+ios/podfile.lock
+package-lock.json

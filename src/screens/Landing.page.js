@@ -7,8 +7,8 @@ import imagecover from '../../assets/travel.jpg'
 // const Iconn = createIconSetFromFontello(fontelloConfig);
 
 
-class LandingPage extends Component {
-    render() {
+const LandingPage = () =>  {
+    
         return (
             <ImageBackground source={imagecover} style={styles.imageCover}>
                 <View style={styles.iconcontainer}>
@@ -44,7 +44,7 @@ class LandingPage extends Component {
             </ImageBackground>
 
         )
-    }
+    
 }
 
 const styles = StyleSheet.create({
